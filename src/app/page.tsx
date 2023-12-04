@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <main className="">
-      <h1 className="text-3xl font-semibold mb-6">Search for a meal!</h1>
+      <h1 className="text-3xl font-semibold mb-6">Get a random recipe!</h1>
       <form className="bg-gray-200 p-4 rounded-lg shadow-md mb-6 w-full">
         <label className="block mb-4">
           Origin of the recipe?*
