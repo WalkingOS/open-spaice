@@ -21,7 +21,6 @@ export interface IFood {
 export const useFetchFood = () => {
   const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
-    dangerouslyAllowBrowser: true,
   });
 
   const [food, setFood] = useState<IFood | null>(null);

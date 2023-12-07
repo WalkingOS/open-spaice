@@ -12,7 +12,7 @@ export default function Home() {
     type: 'breakfast',
   })
 
-  const handleInputChange = ({ target }) => {
+  const handleInputChange = ({ target }: { target: any }) => {
     setInput((prev) => {
       return { ...prev, [target.name]: target.value }
     })
