@@ -20,7 +20,7 @@ export interface IFood {
 
 export const useFetchFood = () => {
   const openai = new OpenAI({
-    apiKey: "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",
+    apiKey: "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",
     dangerouslyAllowBrowser: true,
   });
 
